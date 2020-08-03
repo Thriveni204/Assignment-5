@@ -1,0 +1,182 @@
+<DOCTYPE html>
+<html
+<head>
+    <title>
+        javascript programming
+    </title>
+    <p id="model"></p>
+    <p id="model1"></p>
+</head>
+
+    <body>
+
+    <h1>programming</h1>
+    <h2>javascript</h2>
+    <h3>hello world</h3>
+    <h4>hello js </h4>
+    <script src= "variable.js">
+    </script>
+    <script src="datatypes.js">
+    </script>
+    <script src="arrays.js">
+    </script>
+    <script src="object.js">
+    </script>
+    <script src="function.js">
+    </script>
+    <script src="condition.js">
+    </script>
+    <script src="whileloop.js">
+    </script>
+    <script src="forloop.js"></script>
+    <script src="switch.js"></script>
+    <script>
+        document.getElementById("model").innerHTML=20 +30 ;
+        document.write(200+ 400);
+        window.alert(45 + 25);
+        console.log("hello folks, good morning");
+        console.log(121 + 323);
+
+        var x, y, z;
+        x=4;
+        y=7;
+        z = x + y;
+
+        document.getElementById("model").innerHTML = "the value of z is :" + z;
+        document.write( "the value of z is:" + z );
+        console.log(x + y);
+
+        var x =10;
+        document.write(x);
+        console.log(x);
+        console.log(typeof(x));
+        
+    </script>
+    <script>
+        var firstname, lastname;
+        firstname="java";
+        lastname="script";
+        document.getElementById("model1").innerHTML = firstname + lastname;
+        document.write(firstname + lastname);
+
+    </script>
+
+   
+
+    </body>
+
+</html>
+
+
+#Functions in javascript
+
+function hello() {
+    console.log("hello world from javascript");
+    console.log("programming is fun");
+    console.log("world is nice");
+
+}
+
+hello();
+
+
+function number(num){
+    console.log("number is " + num);
+
+}
+
+number(124);
+
+
+function product(a, b){
+    return a*b;
+}
+
+let j=product(2,2);
+console.log(j);
+
+function multiply(num, _num){
+    console.log(num*_num);
+}
+multiply(15,15);
+
+#Conditions in javaScript
+
+let number1= [];
+number1= [1, 2, 3, 1, ,3, 2,];
+if (number1[0] == number1[1]){
+    console.log("if block executes and value is 1");
+
+} else{
+    console.log("else block execute");
+}
+
+
+
+if(number1[0]==number1[2]){
+    console.log("if block also ececutes");
+}else if(number1[1]==number1[5]){
+    console.log("elseif executes");
+
+}else{
+    console.log("final executes")
+
+}
+
+#Arrays in javascript
+
+
+
+let phone=[];
+lst = ["nokia", "vivo", "redmi", "realme"];
+console.log(phone);
+console.log(phone[0]);
+console.log(phone[1]);
+console.log(phone[2]);
+console.log(phone[3]);
+    
+
+let nums=[]
+nums = [1, 2, 3, 4, 5, 6, 7];
+console.log(nums[0]);
+console.log(nums[1]);
+console.log(nums[2]);
+console.log(nums[3]);
+console.log(nums[4]);
+console.log(nums[0] + nums[1] + nums[2] + nums[3] + nums[4]);
+console.log(nums.sort());
+console.log(nums.push(6));
+console.log(nums.push(7));
+
+console.log(nums.pop(6));
+console.log(nums);
+
+
+#datatypes in javascript
+let name = "drunken monkey"
+let d = 10;
+console.log(name);
+console.log(a);
+console.log(typeof(a));
+console.log(typeof(name));
+
+
+// boolean 
+
+let option = true;
+let height;
+
+console.log(option);
+console.log(typeof(option));
+console.log(height);
+
+#objects in javascript
+
+let marker = {
+    type:'cello',
+    color:'black',
+    cost: 35,
+};
+ 
+console.log(marker);
+console.log(marker.type,marker.color,marker.cost);
